@@ -1,0 +1,74 @@
+[
+    {
+        "id": "MDBooki2024OC",
+        "title": "Booki - HTML, CSS",
+        "cover": "../assets/images/hotel.jpg",
+        "screenshots": "../assets/images/hotel.jpg",
+        "skills": [
+            {
+                "title": "HTML 5",
+                "logo": "../assets/logos/html.png"
+            },
+            {
+                "title": "CSS 3",
+                "logo": "../assets/logos/css.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "../assets/logos/responsive.png"
+            },
+            {
+                "title": "VSCode",
+                "logo": "../assets/logos/vsc.png"
+            },
+            {
+                "title": "Git",
+                "logo": "../assets/logos/git.png"
+            },
+            {
+                "title": "Github",
+                "logo": "../assets/logos/github.png"
+            }
+        ],
+        "description": "description",
+        "specifications": "specifications",
+        "github": "https://github.com/MatthieuDEP/OC-Projet-2"
+    },
+    {
+        "id": "MDKasa2024OC",
+        "title": "Kasa - React",
+        "cover": "../assets/images/hotel.jpg",
+        "techno": 0,
+        "text": 0,
+        "github":0
+
+    },
+    {
+        "id": "MDKasa2024OC1",
+        "title": "Mon vieux Grimoire - NodeJS, Express",
+        "cover": "../assets/images/hotel.jpg",
+        "techno": 0,
+        "text": 0,
+        "github":0
+
+    },
+    {
+        "id": "MDKasa2024OC3",
+        "title": "Nina Carducci - Optimisation, SEO",
+        "cover": "../assets/images/hotel.jpg",
+        "techno": 0,
+        "text": 0,
+        "github":0
+
+    },
+    {
+        "id": "MDKasa2024OC4",
+        "title": "Kasa",
+        "cover": "../assets/images/hotel.jpg",
+        "techno": 0,
+        "text": 0,
+        "github":0
+
+    }
+    
+]

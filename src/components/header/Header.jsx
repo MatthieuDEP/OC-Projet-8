@@ -1,6 +1,8 @@
 import React from 'react';
 import './header.scss';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 // import picture from '../../images/logo.jpg';
 
 export default function Header() {
@@ -11,9 +13,9 @@ export default function Header() {
             </Link>
             <nav className="navigation">
                 <ul className="navigation__list">
-                    <li className="navigation__item"><NavLink to="/" className="navigation__link">Présentation</NavLink></li>
-                    <li className="navigation__item"><NavLink to="/skills" className="navigation__link">Compétences</NavLink></li>
-                    <li className="navigation__item"><NavLink to="/works" className="navigation__link">Mes travaux</NavLink></li>
+                    <li className="navigation__item"><HashLink to="/#about" className="navigation__link">Présentation</HashLink></li>
+                    <li className="navigation__item"><HashLink to="/#skills" className="navigation__link">Compétences</HashLink></li>
+                    <li className="navigation__item"><HashLink to="/#works" className="navigation__link">Mes travaux</HashLink></li>
                 </ul>
             </nav>
         </header>

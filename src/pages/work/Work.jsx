@@ -5,7 +5,7 @@ import NotFound from "../notFound/NotFound";
 import worksData from "../../data/worksData.json";
 import Collapse from "../../components/collapse/Collapse";
 import Skill from "../../components/skill/Skill";
-// import Slider from "../../components/slider/Slider";
+import Slider from "../../components/slider/Slider";
 
 export default function Work() {
 
@@ -20,12 +20,12 @@ export default function Work() {
     return (
         <main className="work">
             <h1 className="work__title">{selectedWork.title}</h1>
-            {/* <Slider images={selectedWork.screenshots} /> */}
-            <img src={selectedWork.screenshots} alt="" />
-            <h2>Compétences utilisées pour ce projet :</h2>
+            <Slider images={selectedWork.screenshots} />
+            <img className="work__img" src={selectedWork.screenshots} alt="" />
+            <h2 className="work__title--skills">Compétences utilisées pour ce projet :</h2>
             <div className="work__skills">
                 {selectedWork.skills.map((skill, index) => (
-                    <Skill key={index} logo={skill.logo} title={skill.title} />
+                    <Skill styles="skill__work" key={index} logo={skill.logo} title={skill.title} />
                 ))}
             </div>
             <div className="work__link">
@@ -34,10 +34,16 @@ export default function Work() {
             </div>
             <div className="collapses collapses__work">
                 <Collapse styles="collapse__work" title="Description">
-                    <p>{selectedWork.description}</p>
+                    {selectedWork.descriptions.map((description, index) => (
+                        <p key={index}>{description}</p>
+                    ))}
                 </Collapse>
                 <Collapse styles="collapse__work" title="Spécifications">
-                    <p>{selectedWork.specifications}</p>
+                    <ul className="collapse__list">
+                        {selectedWork.specifications.map((specification, index) => (
+                            <li className="collapse__item" key={index}>{specification}</li>
+                        ))}
+                    </ul>
                 </Collapse>
             </div>
         </main>

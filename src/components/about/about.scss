@@ -1,0 +1,86 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__creator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F6F6F6;
+        border-radius: 24% 76% 21% 79% / 74% 21% 79% 26%;
+        padding: 4.5rem;
+        margin-top: 8rem;
+
+        &--name {
+            margin-bottom: 0.8rem;
+            color: #2a5bfb;
+        }
+    
+        &--job {
+            color: #2a5bfb;
+        }
+    }
+
+    &__title {
+        margin-top: 5.5rem;
+        margin-bottom: 3.5rem;
+        color: #2a5bfb;
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: row;
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        padding: 3.4rem 3.35rem;
+
+        &--texts {
+            margin: auto;
+        }
+        
+        &--textA {
+            margin-bottom: 1.8rem;
+            letter-spacing: 1px;
+            line-height: 1.25rem;
+            font-size: 1.1rem;
+        }
+
+        &--textB {
+            letter-spacing: 1px;
+            line-height: 1.25rem;
+            font-size: 1.1rem;
+        }
+
+        svg {
+            margin: auto;
+            padding: 0 4rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+
+        &__creator {
+            padding: 2.8rem;
+        }
+
+        &__details {
+            flex-direction: column-reverse;
+            padding: 1.25rem;
+            border-radius: 10px;
+            text-align: center;
+
+            p {
+                padding: 0;
+            }
+
+            svg {
+                padding: 1rem 0;
+                width: 4rem;
+            }
+        }
+    }
+}

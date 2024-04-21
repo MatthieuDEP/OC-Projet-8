@@ -1,6 +1,5 @@
 .slider {
     position: relative;
-    margin: 2.8rem 0 0.8rem 0;
 
     .arrow-left,
     .arrow-right {
@@ -26,7 +25,7 @@
         z-index: 1;
         left: 50%;
         bottom: 1.5rem;
-        color: #FFF;
+        color: #2a5bfb;
         font-size: 1.1rem;
         font-weight: 500;
     }
@@ -52,7 +51,7 @@
 
 @media (max-width: 768px) {
     .slider {
-        margin: 1.68rem 0 0.5rem 0;
+        margin: 1.68rem 0.8rem 0.5rem 0.8rem;
 
         .arrow-left,
         .arrow-right {

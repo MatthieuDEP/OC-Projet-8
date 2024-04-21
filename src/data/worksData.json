@@ -1,9 +1,13 @@
 [
     {
         "id": "MDBooki2024OC",
-        "title": "Booki - HTML, CSS",
-        "cover": "../assets/images/hotel.jpg",
-        "screenshots": "../assets/images/hotel.jpg",
+        "title": "Booki",
+        "coverTitle": "Booki - HTML, CSS",
+        "cover": "../assets/images/booki/booki_1.png",
+        "screenshots": [
+            "../assets/images/booki/booki_1.png",
+            "../assets/images/booki/booki_2.png"
+        ],    
         "skills": [
             {
                 "title": "HTML 5",
@@ -30,45 +34,237 @@
                 "logo": "../assets/logos/github.png"
             }
         ],
-        "description": "description",
-        "specifications": "specifications",
+        "descriptions": [
+            "La start-up Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface responsive du site avec du code HTML et CSS tout en respectant les maquettes de l'UI designer.",
+            "La seule problématique a été le responsive, rapidement résolue en développant en 'mobile first'."
+        ],
+        "specifications": [
+            "Intégration HTML/CSS",
+            "Responsive Design",
+            "Respect des maquettes",
+            "Versionner avec Git et Github"
+        ],
         "github": "https://github.com/MatthieuDEP/OC-Projet-2"
     },
     {
+        "id": "MDSophieBluel2024OC",
+        "title": "Sophie Bluel",
+        "coverTitle": "Sophie Bluel - Javascript",
+        "cover": "../assets/images/sophieB/sophieB_1.png",
+        "screenshots": [
+            "../assets/images/sophieB/sophieB_1.png",
+            "../assets/images/sophieB/sophieB_2.png",
+            "../assets/images/sophieB/sophieB_3.png"
+        ],
+        "skills": [
+            {
+                "title": "HTML 5",
+                "logo": "../assets/logos/html.png"
+            },
+            {
+                "title": "CSS 3",
+                "logo": "../assets/logos/css.png"
+            },
+            {
+                "title": "Javascipt",
+                "logo": "../assets/logos/javascript.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "../assets/logos/responsive.png"
+            },
+            {
+                "title": "VSCode",
+                "logo": "../assets/logos/vsc.png"
+            },
+            {
+                "title": "Git",
+                "logo": "../assets/logos/git.png"
+            },
+            {
+                "title": "Github",
+                "logo": "../assets/logos/github.png"
+            }
+        ],
+        "descriptions": [
+            "En tant que développeur front-end pour l'agence ArchiWebos je suis envoyé en renfort dans une équipe qui travaille sur la conception d'un site portfolio d'une architecte d'intérieur. Les 3 principales missions étaient de créer une page de présentation des travaux, une page de connexion et une modale permettant d'uploader de nouveuax médias en utilsant uniquement du Javascript.",
+            "J'ai rencontré quelques petits soucis pour la modale et l'ahout des fichiers. Soucis résolus grâce à la manipulation du DOM et à la gestion des événements possibles avec Javascript."
+        ],
+        "specifications": [
+            "Projet 100% HTML, CSS et Javascript",
+            "Manipuler les éléments du DOM avec Javascript",
+            "Récupérer des données utilisateurs dans le Javascript via des formulaires",
+            "Connexion à une API",
+            "Respect des maquettes",
+            "Travailler avec une partie du code déjà existant"
+        ],
+        "github": "https://github.com/MatthieuDEP/OC-Projet-3"
+
+    },
+    {
         "id": "MDKasa2024OC",
-        "title": "Kasa - React",
-        "cover": "../assets/images/hotel.jpg",
-        "techno": 0,
-        "text": 0,
-        "github":0
-
-    },
-    {
-        "id": "MDKasa2024OC1",
-        "title": "Mon vieux Grimoire - NodeJS, Express",
-        "cover": "../assets/images/hotel.jpg",
-        "techno": 0,
-        "text": 0,
-        "github":0
-
-    },
-    {
-        "id": "MDKasa2024OC3",
-        "title": "Nina Carducci - Optimisation, SEO",
-        "cover": "../assets/images/hotel.jpg",
-        "techno": 0,
-        "text": 0,
-        "github":0
-
-    },
-    {
-        "id": "MDKasa2024OC4",
         "title": "Kasa",
-        "cover": "../assets/images/hotel.jpg",
-        "techno": 0,
-        "text": 0,
-        "github":0
+        "coverTitle": "Kasa - React",
+        "cover": "../assets/images/kasa/kasa_1.png",
+        "screenshots": [
+            "../assets/images/kasa/kasa_1.png",
+            "../assets/images/kasa/kasa_2.png",
+            "../assets/images/kasa/kasa_3.png"
+        ],
+        "skills": [
+            {
+                "title": "HTML 5",
+                "logo": "../assets/logos/html.png"
+            },
+            {
+                "title": "CSS 3",
+                "logo": "../assets/logos/css.png"
+            },
+            {
+                "title": "React",
+                "logo": "../assets/logos/react.png"
+            },
+            {
+                "title": "Responsive",
+                "logo": "../assets/logos/responsive.png"
+            },
+            {
+                "title": "VSCode",
+                "logo": "../assets/logos/vsc.png"
+            },
+            {
+                "title": "Git",
+                "logo": "../assets/logos/git.png"
+            },
+            {
+                "title": "Github",
+                "logo": "../assets/logos/github.png"
+            }
+        ],
+        "descriptions": ["La société Kasa a fait le souhait d'une refonte totale de sa plateforme web pour passer à une stack complète en Javascript avec Node Js pour le Backend et React pour le Frontend. Pour cette mission, j'étais le développeur Frontend et j'ai mis en place les fonctionnalités demandés tout en respectant l'interface client souhaitée.",
+        "Après quelques interrogations sur la structure d'une application React, j'ai rapidement compris l'utilité et la puissance des composants, des props et des hooks dans la conception d'un site."
+        ],
+        "specifications": [
+            "Projet 100% React",
+            "Utilisation de composants",
+            "Utilisation de props et de hooks",
+            "Gestion des routes avec React Router",
+            "Gestion des erreurs de routes",
+            "Respect des maquettes",
+            "Responsive Design",
+            "Utilisation de Sass pour générer le style"
+            
+        ],
+        "github": "https://github.com/MatthieuDEP/OC-Projet-6"
+    },
+    {
+        "id": "MDMVG2024OC",
+        "title": "Mon vieux Grimoire",
+        "coverTitle": "Mon vieux Grimoire - NodeJS, Express, MongoDB",
+        "cover": "../assets/images/mvg/mvg_1.png",
+        "screenshots": [
+            "../assets/images/mvg/mvg_1.png",
+            "../assets/images/mvg/mvg_2.png",
+            "../assets/images/mvg/mvg_3.png",
+            "../assets/images/mvg/mvg_4.png"
+        ],
+        "skills": [
+            {
+                "title": "NodeJS",
+                "logo": "../assets/logos/nodejs.png"
+            },
+            {
+                "title": "Express",
+                "logo": "../assets/logos/express.png"
+            },
+            {
+                "title": "MongoDB",
+                "logo": "../assets/logos/mongodb.png"
+            },
+            {
+                "title": "API",
+                "logo": "../assets/logos/api.png"
+            },
+            {
+                "title": "VSCode",
+                "logo": "../assets/logos/vsc.png"
+            },
+            {
+                "title": "Git",
+                "logo": "../assets/logos/git.png"
+            },
+            {
+                "title": "Github",
+                "logo": "../assets/logos/github.png"
+            }
+        ],
+        "descriptions": [
+            "Pour ce projet je suis développeur back-end freelance, un développeur front-end me propose de le rejoindre sur un projet de site de référencement et de notation de livres : Mon Vieux Grimoire. Je dois créer le back-end à partir de zéro en respectant un cahier des charges, ainsi qu'en utilisant NodeJS, Express et MongoDB.",
+            "La principale difficulté était de faire correspondre les routes définies au frontend pour y connecter le back-end. Après étude du code du front-end et avoir compris la logique le problème a été résolu."
+        ],
+        "specifications": [
+            "Création d'un server avec NodeJS",
+            "Application avec Express",
+            "Création d'une base de données avec MongoDB",
+            "Système d'authentification",
+            "Cryptage des des mot de passe",
+            "Utilisation de tokens",
+            "Mise en oeuvre des opérations CRUD de manière sécurisée",
+            "Optimisation des images envoyées (green code)"
+        ],
+        "github": "https://github.com/MatthieuDEP/OC-Projet-7"
+    },
+    {
+        "id": "MDNinaCarducci2024OC",
+        "title": "Nina Carducci",
+        "coverTitle": "Nina Carducci - SEO, Optimisations",
+        "cover": "../assets/images/ninaC/ninaC_1.png",
+        "screenshots": [
+            "../assets/images/ninaC/ninaC_1.png",
+            "../assets/images/ninaC/ninaC_2.png",
+            "../assets/images/ninaC/ninaC_3.png",
+            "../assets/images/ninaC/ninaC_4.png"
+        ],
+        "skills": [
+            {
+                "title": "HTML 5",
+                "logo": "../assets/logos/html.png"
+            },
+            {
+                "title": "CSS 3",
+                "logo": "../assets/logos/css.png"
+            },
+            {
+                "title": "Seo",
+                "logo": "../assets/logos/seo.png"
+            },
+            {
+                "title": "VSCode",
+                "logo": "../assets/logos/vsc.png"
+            },
+            {
+                "title": "Git",
+                "logo": "../assets/logos/git.png"
+            },
+            {
+                "title": "Github",
+                "logo": "../assets/logos/github.png"
+            }
+        ],
+        "descriptions": [
+            "Sur ce projet je suis un développeur freelance qui souhaite proposer ses services à de nouveaux clients. Parmi mes prospects, se trouve le site de Nina Carducci, une photographe. Après un échange de mails il est convenu que je fasse les travaux suivants : faire une optimisation sur les performances et le SEO du site, mettre en place le référencement local, ajouter les metas pour les réseaux sociaux, faire des modifications pour l'accessibilité du site, débugger 2 problèmes et produire un rapport.",
+            "La problématique a été de comprendre les informations récupérées par Lighthouse, l'outil de diagnostique de Google. Une fois celles-ci intégrées le travail a pu commencer."
+        ],
+        "specifications": [
+            "Débugger un site web grâce aux Chrome Devtools",
+            "Utilisation de Lighthouse",
+            "Utilisation de Wave",
+            "Optimiser les performances d'un site web",
+            "Optimisation du référencement",
+            "Optimisation de l'accessibilité",
+            "Création d'un rapport"
+        ],
+        "github": "https://github.com/MatthieuDEP/OC-Projet-5"
 
     }
-    
 ]

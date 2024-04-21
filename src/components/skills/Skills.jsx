@@ -6,10 +6,10 @@ import skillsData from "../../data/skillsData.json";
 export default function Skills() {
   return (
     <section className="skills" id="skills">
-      <h2>Compétences</h2>
+      <h2 className="skills__title">Compétences</h2>
       <div className="skills__gallery">
         {skillsData.map(skill => (
-          <Skill key={skill.id} logo={skill.logo} title={skill.title} />
+          <Skill styles="skill__home" key={skill.id} logo={skill.logo} title={skill.title} />
         ))}
       </div>
     </section>

@@ -6,10 +6,10 @@ import worksData from '../../data/worksData.json';
 export default function Works() {
   return (
     <section className="works" id="works">
-      <p>Works</p>
+      <h2 className="works__title">Mes travaux</h2>
       <div className='works__gallery'>
         {worksData.map(work => (
-          <Card key={work.id} id={work.id} cover={work.cover} title={work.title} />
+          <Card key={work.id} id={work.id} cover={work.cover} title={work.coverTitle} />
         ))}
       </div>
     </section>

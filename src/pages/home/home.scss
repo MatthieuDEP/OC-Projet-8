@@ -1,4 +1,14 @@
 .home {
+    margin: 0 5.6rem 0 5.6rem;
     position: relative;
-    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .home {
+        margin: 0;
+    }
 }

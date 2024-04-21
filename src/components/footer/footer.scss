@@ -4,17 +4,38 @@
     align-items: center;
     background-color: #2a5bfb;
     margin-top: 2.7rem;
+    border-radius: 5px 5px 0 0;
 
     &__logo {
-        // width: 122px;
-        // height: 40px;
-        margin: 4rem 0 1.8rem 0;
+        margin-top: 1.6rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2.4rem;
+        
+        a {
+            margin: 0.8rem;
+        }
     }
 
     &__text {
         color: white;
         font-weight: 500;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin-top: 0.2rem;
         margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+
+        &__logo {
+            font-size: 2rem;
+        }
+
+        &__text {
+            font-size: 0.8rem;
+        }
     }
 }

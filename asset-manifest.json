@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/OC-Projet-8/static/css/main.507ff41a.css",
+    "main.js": "/OC-Projet-8/static/js/main.4812dd2e.js",
+    "index.html": "/OC-Projet-8/index.html",
+    "static/media/arrow.svg": "/OC-Projet-8/static/media/arrow.574227c1ca3bbfe1a74a469a82b713bc.svg",
+    "main.507ff41a.css.map": "/OC-Projet-8/static/css/main.507ff41a.css.map",
+    "main.4812dd2e.js.map": "/OC-Projet-8/static/js/main.4812dd2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507ff41a.css",
+    "static/js/main.4812dd2e.js"
+  ]
+}

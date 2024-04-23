@@ -5,7 +5,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 8;
     background-color: #2a5bfb;
     max-width: 1440px;
     border-radius: 0 0 5px 5px;
@@ -35,19 +35,33 @@
             font-weight: 500;
             font-size: 1.2rem;
         }
+
+        &__hamburger {
+            display: none;
+        }
     }
 }
 
-@media (max-width: 768px) {
+.burgerClose {
+    display: none;
+}
+
+@media (max-width: 767px) {
     .header {
+        display: flex;
+        flex-direction: row-reverse;
 
         &__logo {
             width: 2rem;
-            margin: 0.5rem 0 0.5rem 0.7rem;
+            margin: 0.8rem;
         }
 
         .navigation {
             margin-right: 0.7rem;
+
+            &__list {
+                display: none;
+            }
 
             &__item {
                 margin-left: 0.6rem;        
@@ -55,8 +69,40 @@
             
             &__link {
                 font-size: 0.75rem;
-                
+            }
+
+            &__hamburger {
+                display: flex;
+                margin-left: 0.8rem;
+                z-index: 10;
             }
         }
+    }
+
+    .burgerOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2a5bfb;
+        width: 100%;
+        margin-top: 2.6rem;
+        position: fixed;
+        list-style: none;
+        border-radius: 5px;
+        opacity: 0.88;
+        padding: 2rem 2rem;
+        gap: 1.8rem;
+
+        &__link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            opacity: 2;
+        }
+    }
+
+    .burgerClose {
+        display: none;
     }
 }

@@ -4,6 +4,7 @@
         "title": "Booki",
         "coverTitle": "Booki - HTML, CSS",
         "cover": "../assets/images/booki/booki_1.png",
+        "coverAlt": "Image du site Booki",
         "screenshots": [
             "../assets/images/booki/booki_1.png",
             "../assets/images/booki/booki_2.png"
@@ -51,6 +52,7 @@
         "title": "Sophie Bluel",
         "coverTitle": "Sophie Bluel - Javascript",
         "cover": "../assets/images/sophieB/sophieB_1.png",
+        "coverAlt": "Image du site Sophie Bluel",
         "screenshots": [
             "../assets/images/sophieB/sophieB_1.png",
             "../assets/images/sophieB/sophieB_2.png",
@@ -106,6 +108,7 @@
         "title": "Kasa",
         "coverTitle": "Kasa - React",
         "cover": "../assets/images/kasa/kasa_1.png",
+        "coverAlt": "Image du site Kasa",
         "screenshots": [
             "../assets/images/kasa/kasa_1.png",
             "../assets/images/kasa/kasa_2.png",
@@ -159,9 +162,10 @@
     },
     {
         "id": "MDMVG2024OC",
-        "title": "Mon vieux Grimoire",
+        "title": "Mon Vieux Grimoire",
         "coverTitle": "Mon vieux Grimoire - NodeJS, Express, MongoDB",
         "cover": "../assets/images/mvg/mvg_1.png",
+        "coverAlt": "Image du site Mon Vieux Grimoire",
         "screenshots": [
             "../assets/images/mvg/mvg_1.png",
             "../assets/images/mvg/mvg_2.png",
@@ -219,6 +223,7 @@
         "title": "Nina Carducci",
         "coverTitle": "Nina Carducci - SEO, Optimisations",
         "cover": "../assets/images/ninaC/ninaC_1.png",
+        "coverAlt": "Image du site Nina Carducci",
         "screenshots": [
             "../assets/images/ninaC/ninaC_1.png",
             "../assets/images/ninaC/ninaC_2.png",

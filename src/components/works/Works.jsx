@@ -9,7 +9,7 @@ export default function Works() {
       <h2 className="works__title">Mes travaux</h2>
       <div className='works__gallery'>
         {worksData.map(work => (
-          <Card key={work.id} id={work.id} cover={work.cover} title={work.coverTitle} />
+          <Card key={work.id} id={work.id} cover={work.cover} title={work.coverTitle} alt={work.coverAlt}/>
         ))}
       </div>
     </section>
